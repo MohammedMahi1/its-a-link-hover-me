@@ -1,13 +1,13 @@
 import { ReactNode, useState } from "react"
 import { twMerge } from "tailwind-merge"
 import { motion } from "motion/react"
+
 type LinkProps = {
     children: ReactNode
 } & React.ComponentProps<"a">
 
 
 const Link: React.FC<LinkProps> = ({ children, className, ...props }) => {
-
     const [isHovered,setIsHovered] = useState(false)
     return (
         <motion.div className="flex flex-col w-fit relative "
@@ -25,13 +25,13 @@ const Link: React.FC<LinkProps> = ({ children, className, ...props }) => {
             onHoverEnd={()=>setIsHovered(false)}
         >
             <a
-                className={twMerge("font-semibold px-[0.2rem] flex flex-col items-end justify-end w-fit z-2", className)}
+                className={twMerge("font-semibold px-[0.2rem] flex flex-col items-end justify-end w-fit relative z-[999]", className)}
                 {...props}
             >
                 {children}
             </a>
             <motion.div 
-            className="bg-green-500 w-full absolute bottom-0 z-[-1] "
+            className="bg-green-500 w-full absolute bottom-0 z-0 "
             initial={{
                 height:"9%"
             }}
