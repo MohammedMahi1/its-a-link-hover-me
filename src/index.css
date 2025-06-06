@@ -5,6 +5,7 @@
 
 :root {
   --paper: #2a2a2a;
+  --tooltip:#393939;
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;

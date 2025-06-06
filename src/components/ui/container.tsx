@@ -7,12 +7,14 @@ const containerVariants = cva(
     [
         "px-16 ",
         "py-4",
+        "flex"
     ],
     {
         variants: {
             flex: {
                 col: "flex-col",
                 row: "flex-row",
+                center:"items-center justify-center w-[100vw] h-[100vh]"
             }
         },
         defaultVariants: {

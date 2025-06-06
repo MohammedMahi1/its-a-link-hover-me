@@ -10,7 +10,7 @@ type LinkProps = {
 const Link: React.FC<LinkProps> = ({ children, className, ...props }) => {
     const [isHovered,setIsHovered] = useState(false)
     return (
-        <motion.div className="flex flex-col w-fit relative "
+        <motion.div className="flex flex-col w-fit items-center justify-center relative "
             initial={{
                     color:"#fafafa"
                 }}

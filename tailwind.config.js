@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         "paper": "var(--paper)",
+        "tooltip": "var(--tooltip)",
       },
     },
   },
