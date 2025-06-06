@@ -1,5 +1,4 @@
 # It a Link
 
-
-Uploading Vite + React + TS - Google Chrome 2025-06-06 19-31-54.mp4…
+![it-a-link](https://github.com/user-attachments/assets/e6faf35e-2505-427d-9f30-8b7d2e5d4521)
 
