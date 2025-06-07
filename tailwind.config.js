@@ -10,6 +10,9 @@ export default {
         "paper": "var(--paper)",
         "tooltip": "var(--tooltip)",
       },
+      fontFamily:{
+        "DotGothic16":"DotGothic16"
+      }
     },
   },
   plugins: [],
